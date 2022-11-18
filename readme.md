@@ -92,7 +92,7 @@ All articles are created with reference to the current user.
 Params name, body and category are required
 
 ```
-$ curl -X POST http://localhost:8000/api/register \
+$ curl -X POST http://localhost:8000/api/addarticle \
  -H "Accept: application/json" \
  -H "Content-Type: application/json" \
  -H "Authorization: Bearer NKqerNMB8307CQZJqfsGXBF28IkWJnjAMCMRCXMOT7BC1UzHBHTWLxOavAkN" \
